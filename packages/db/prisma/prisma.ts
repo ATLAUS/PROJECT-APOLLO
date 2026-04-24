@@ -8,6 +8,4 @@ if (!connectionString) {
 }
 
 const adapter = new PrismaPg({ connectionString }); // connects to self hosted postgres database
-const prisma = new PrismaClient({ adapter });
-
-export { prisma };
+export const prisma = new PrismaClient({ adapter });
