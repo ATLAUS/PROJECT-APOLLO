@@ -1,6 +1,7 @@
 {
   "name": "db",
   "version": "0.0.0",
+  "type": "module",
   "devDependencies": {
     "@types/node": "^24.12.2",
     "prisma": "^7.7.0"
